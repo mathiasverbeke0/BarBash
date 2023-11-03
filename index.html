@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BarBash</title>
+    <link rel="icon" href="images/BarBash.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="components/footer/footer.css">
+</head>
+<body>
+    <div>
+        <h2 id="counter">
+            You have hit the spacebar <span class="hits">0</span> times.
+        </h2>
+        <a href="#" onclick="resetHits()" class="reset">RESET</a> <!-- Calls the resetHits() function when clicked -->
+    </div>
+
+    <!-- Footer Section Container -->
+    <footer class="footer">
+        <div class="footer-links">
+            <!-- Link to GitHub (About) -->
+            <a href="https://github.com/mathiasverbeke0" target="_blank">About</a>
+    
+            <!-- Link to Contact (opens default email client) -->
+            <a href="mailto:mathias.verbeke@howest.be?subject=BarBash Inquiry">Contact</a>
+        </div>
+        <div class="footer-copyright" id="currentYear">
+            <!-- Copyright notice with dynamic year -->
+        </div>
+    </footer>
+
+    <!-- Implement javascript -->
+    <script src="scripts/script.js"></script>
+    <script src="components/footer/footer.js"></script>
+</body>
+</html>

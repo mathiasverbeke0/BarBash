@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column; /* Aligns elements vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #00adef 0%, #eb008a 100%);
+    text-align: center;
+}
+
+#counter {
+    font-size: 2em; /* Sets font size */
+    font-weight: bold; /* Sets font weight to bold */
+    color: #fff; /* Sets text color to white */
+    margin-bottom: 30px; /* Adds bottom margin */
+}
+
+.hits {
+    font-size: 2em; /* Sets font size */
+    font-weight: bolder; /* Sets font weight to bolder */
+    color: #fff; /* Sets text color to white */
+    background-color: #eb008a; /* Sets background color */
+    padding: 10px 20px; /* Adds padding */
+    border-radius: 10px; /* Adds rounded corners */
+    margin: 0 10px; /* Adds horizontal margin */
+}
+
+.reset {
+    background-color: #00adef; /* Sets button background color */
+    padding: 15px 50px; /* Adds padding */
+    border-radius: 20px; /* Adds rounded corners */
+    color: #fff; /* Sets text color to white */
+    font-size: 20px; /* Sets font size */
+    text-decoration: none; /* Removes underline from the link */
+    font-weight: bold;
+}
+
+.reset:hover {
+    background-color: #00546c; /* Changes button color on hover */
+}
+
+.footer {
+    margin-top: 40px;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
